@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "prettier",
+    "@remix-run/eslint-config",
+    "@remix-run/eslint-config/node",
+    "@alex-taxiera/eslint-config-ts"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+}

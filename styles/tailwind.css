@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply font-bold px-4 py-2 rounded;
+  }
+
+  .track-card {
+    @apply m-12 px-3 py-5 drop-shadow-md;
+  }
+
+  .form-main {
+    @apply text-gray-600;
+  }
+
+  .form-component {
+    @apply mx-56 p-5;
+  }
+
+  .custom-class {
+    @apply ...;
+  }
+}
